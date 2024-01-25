@@ -18,4 +18,9 @@ print(not c)
 print("not d", end=" = ")
 print(not d)
 
+student = ["Teddy", "Janet", "John", "abdullahi"]
+
+print ("Teddies"  in student)
+print ("Teddies" not in student)
+
 
