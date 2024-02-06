@@ -18,8 +18,15 @@ conbine = [1,2,3,4,5,6,7,8,9]
 oddNumberList = []
 
 for i in conbine:  
-    if i%2 != 0:
+    if i % 2 != 0:
       oddNumberList.append(i)
       
-
 print(oddNumberList)
+
+a = [1,3,4,6,'gdgd', 'teye']
+b = [1,2,3,4,5, 'q','capitalize']
+a.extend(b)
+
+a.insert(3,"Teddy")
+a.append(50)
+print(a)
